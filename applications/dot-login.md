@@ -89,7 +89,6 @@ Transaction Sending Flow: This flow details the steps from the user's initiation
 - **Total Costs:** 40,800 USD
 
 ### Milestone 1 — Wallet Creation Flow
-6800
 - **Estimated Duration:** 1 month
 - **FTE:**  2.5
 - **Costs:** 17,000 USD
