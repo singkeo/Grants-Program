@@ -8,9 +8,27 @@
 
 ### Overview
 
-This project aims to integrate OAuth2 with Substrate, enabling users to sign into their wallets using familiar Web2 authentication methods like Google, Twitter, Facebook, and Microsoft OAuth. Our goal is to lower the entry barrier to the Web3 world and make it more accessible to everyday users.
+This project aims to integrate OAuth2 with Substrate, enabling users to sign into their wallets using familiar Web2 authentication methods like Google, Twitter, Facebook, and Microsoft OAuth2. Our goal is to lower the entry barrier to the Web3 world and make it more accessible to everyday users.
 
 ### Project Details
+
+This project is structured into three main parts: the wallet creation flow, the transaction sending flow, and the UI development. Each part addresses a core aspect of integrating OAuth2 authentication with Substrate, facilitating an accessible entry point into the Web3 space for Web2 users.
+
+- **Wallet Creation Flow:** This process involves the user generating an ephemeral key pair and authenticating with an OAuth2 provider. The `zkEphemeralKeys` pallet then registers the public key, encapsulated with a zero-knowledge proof to ensure privacy. The wallet address is derived from this ephemeral public key, ensuring a secure link between the user's identity as authenticated by the OAuth2 provider and their on-chain presence.
+
+- **Transaction Sending Flow:** For transaction processing, the `zkEphemeralKeys` pallet again plays a pivotal role. It employs an internal mechanism to verify transaction signatures made with the ephemeral keys. Upon successful verification, it executes the transfer using a custom extrinsic that mimics the core functionality of the vanilla `pallet_balances`, ensuring that the core logic of existing Substrate modules remains untouched.
+
+- **UI Development:** The user interface is built using ReactJS and the Polkadot.js/API or PAPI library, combined with RxJS for reactive programming. The UI will provide a seamless experience for creating wallets, viewing balances, and sending transactions. The design prioritizes ease of use to encourage adoption by users less familiar with blockchain technologies.
+
+**Architectural Overview**
+
+The project architecture is designed to be modular and secure, ensuring that each component can operate independently while contributing to the system as a whole.
+
+There are two key architectural diagrams that define the project's structure:
+
+Wallet Creation Flow: This diagram outlines the process from wallet initiation by the user through OAuth2 provider interaction to the on-chain registration of keys and addresses. It includes the interaction with off-chain components like the JWK registry and OAuth2 providers' APIs.
+
+Transaction Sending Flow: This flow details the steps from the user's initiation of a transaction to the verification of signatures and the execution of token transfers on-chain. It emphasizes the importance of the `zkEphemeralKeys` pallet in ensuring secure transactions without altering the core Balances pallet.
 
 - **Technology Stack:**
     - Rust for Substrate pallets,
@@ -97,7 +115,7 @@ This project aims to integrate OAuth2 with Substrate, enabling users to sign int
 | 0c. | Testing Guide | Updated testing guide with transaction flow tests. |
 | 0d. | Docker | Updated Docker setup. |
 | 0e. | Article | Write an article that covers the implementation of the two modules, how to use them, how this development is significant for the ecosystem and mainstream adoption as well as our long-term vision for this project |
-| 1. | Transaction Signature Verification Mechanism | Develop a mechanism in zkEphemeralKeys to verify the signatures of transactions against the registered ephemeral keys. A `SIGNATURE_VERIFIED` (or similar) event will be emitted upon successful verification. |
+| 1. | Transaction Signature Verification Mechanism | Develop a mechanism in `zkEphemeralKeys` to verify the signatures of transactions against the registered ephemeral keys. A `SIGNATURE_VERIFIED` (or similar) event will be emitted upon successful verification. |
 | 2. | Implement `execute_transfer` Extrinsic | Develop the `execute_transfer` extrinsic within the `zkEphemeralKeys`` pallet. It will  accept all necessary parameters for a transfer, including an ephemeral key signature. |
 | 3. | `zkEphemeralKeys`-internal Transfer Functionality | Develop an internal function within the `zkEphemeralKeys` pallet to handle the actual token transfer. This function will replicate the essential checks and logic of the balances pallet’s transfer mechanism and has to be updated, if the the balances pallet changes. While this dependency is not perfect, we think that's the best trade-off, because the alternative would be to change the balances pallet which is something we'd like to avoid. We might propose a change on the balances pallet at a later stage, to make this more flexible. Note that this deliverable will also include the handling and emitting of events to broadcast the success or failure of the transfer. |
 
