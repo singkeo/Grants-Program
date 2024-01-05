@@ -33,6 +33,8 @@ Wallet Creation Flow: This diagram outlines the process from wallet initiation b
 
 Transaction Sending Flow: This flow details the steps from the user's initiation of a transaction to the verification of signatures and the execution of token transfers on-chain. It emphasizes the importance of the `zkEphemeralKeys` pallet in ensuring secure transactions without altering the core Balances pallet.
 
+![zkMoku-tx-creation drawio](https://github.com/singkeo/Grants-Program/assets/6782362/3f8dd94c-8d16-482a-82ce-5b343e8f35aa)
+
 - **Technology Stack:**
     - Rust for Substrate pallets,
     - TypeScript/ReactJS for the wallet logic,
