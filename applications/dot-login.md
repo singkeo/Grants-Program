@@ -8,7 +8,9 @@
 
 ### Overview
 
-This project aims to integrate OAuth2 with Substrate, enabling users to sign into their wallets using familiar Web2 authentication methods like Google, Twitter, Facebook, and Microsoft OAuth2. Our goal is to lower the entry barrier to the Web3 world and make it more accessible to everyday users.
+DOT Login is poised to bridge the gap between Web2 and Web3 by simplifying access to blockchain technology through familiar OAuth2 protocols. Our project is not merely about creating another wallet; it's about crafting a portal that will open the Web3 ecosystem to the masses, starting with a focus on USD-backed stablecoins available on Polkadot's Asset Hub, such as USDT and USDC. While the overarching vision includes a payment app to revolutionize global transactions, this grant application centers on the core technology that will lay the foundation for this future: a wallet creation and transaction flow built on the back of well-known OAuth2 providers like Google, Twitter, Facebook, and Microsoft.
+
+The DOT Login initiative will enable individuals, even those without prior blockchain experience, to enter the Polkadot and Kusama ecosystems with ease, using accounts they already trust and use daily. This grant application will focus on developing the underlying infrastructure to support this seamless transition, ensuring that while the long-term vision includes a comprehensive payment application, the current scope is dedicated to creating the technological core and user interface that will serve as the bedrock for future developments.
 
 ### Project Details
 
@@ -26,12 +28,11 @@ The project architecture is designed to be modular and secure, ensuring that eac
 
 There are two key architectural diagrams that define the project's structure:
 
-Wallet Creation Flow: This diagram outlines the process from wallet initiation by the user through OAuth2 provider interaction to the on-chain registration of keys and addresses. It includes the interaction with off-chain components like the JWK registry and OAuth2 providers' APIs.
+**Wallet Creation Flow:** This diagram outlines the process from wallet initiation by the user through OAuth2 provider interaction to the on-chain registration of keys and addresses. It includes the interaction with off-chain components like the JWK registry and OAuth2 providers' APIs.
 
 ![zkMoku-wallet-creation drawio](https://github.com/singkeo/Grants-Program/assets/6782362/770f5492-6e47-4629-82e9-51ab78f1d5ff)
 
-
-Transaction Sending Flow: This flow details the steps from the user's initiation of a transaction to the verification of signatures and the execution of token transfers on-chain. It emphasizes the importance of the `zkEphemeralKeys` pallet in ensuring secure transactions without altering the core Balances pallet.
+**Transaction Sending Flow:** This flow details the steps from the user's initiation of a transaction to the verification of signatures and the execution of token transfers on-chain. It emphasizes the importance of the `zkEphemeralKeys` pallet in ensuring secure transactions without altering the core Balances pallet.
 
 ![zkMoku-tx-creation drawio](https://github.com/singkeo/Grants-Program/assets/6782362/3f8dd94c-8d16-482a-82ce-5b343e8f35aa)
 
