@@ -78,11 +78,11 @@ Below is a comparative overview of our immediate project goals for the scope of 
     - Bubble Vie Founder: Physical retail chains in France (food)
     - Bobapro Founder: No. 1 supplier of Bubble Tea products in France
 - **Ahmed Abouzi:**
-    - Binks: neobank facilitating access to the bank account
-    - Toruneko: an e-commerce company selling on the biggest marketplaces (Amazon, CDiscount, Fnac, Rakuten...) with a stock of thousand products
-    - ETravelCompanion: a proactive and adaptive voice assistant that helps and facilitates journeys of drivers
+    - Past CTO at Binks: neobank facilitating access to the bank account
+    - CTO at Toruneko: an e-commerce company selling on the biggest marketplaces (Amazon, CDiscount, Fnac, Rakuten...) with a stock of thousand products
+    - Consultant at ETravelCompanion: a proactive and adaptive voice assistant that helps and facilitates journeys of drivers
 - **Avraam Makmhudov:**
-    - Working at Natixis 
+    - Senior Software Engineer at Natixis
 
 ### Team Code Repos
 
