@@ -51,7 +51,7 @@ Below is a comparative overview of our immediate project goals for the scope of 
 | Aspect             | This Grant                                                                 | Macro Vision                                                                      |
 |--------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | **Target Audience** | New and existing Web2 users transitioning to Web3, developers looking for user-friendly authentication methods. | Global user base with a focus on financial inclusion, merchants, and consumers seeking low-cost, efficient payment solutions. Eventually allow merchands and retail users to use the currency of their choice for payments and savings. This can be useful especially for countries that experience currency crisises or go to a time of high inflation. |
-| **Needs Met**       | Simplifying the transition from Web2 to Web3 and enhancing user experience in the Polkadot/Kusama ecosystem. | Providing a stable, reliable, and accessible payment network using blockchain technology to facilitate financial transactions worldwide with a focus on stablecoins for minimizing volatility. |
+| **Needs Met**       | Simplifying the transition from Web2 to Web3 and enhancing user experience in the Polkadot/Kusama ecosystem. | Providing a stable, reliable, and accessible payment network using blockchain technology to facilitate financial transactions worldwide with a focus on stablecoins. The goal is to deliver an user experience that doesn't require users to know how blockchain works.  |
 
 ## Team :busts_in_silhouette:
 
