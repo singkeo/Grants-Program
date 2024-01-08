@@ -86,15 +86,13 @@ Below is a comparative overview of our immediate project goals for the scope of 
 
 ### Team Code Repos
 
-- **Mickael Luangkhot:** https://github.com/singkeo (PRIVATE)
-- **Ahmed Abouzi:** https://github.com/AhmedX6 (PRIVATE)
-- **Avraam Makmhudov:** https://github.com/avraamm (PRIVATE)
+- **Mickael Luangkhot:** https://github.com/singkeo
+- **Ahmed Abouzi:** https://github.com/AhmedX6
+- **Avraam Makmhudov:** https://github.com/avraamm
 
 ### Team LinkedIn Profiles
 
-- **Mickael Luangkhot:** https://www.linkedin.com/in/luangkhot (PRIVATE)
-- **Ahmed Abouzi:** https://www.linkedin.com/in/ahmed-a-a918326a (PRIVATE)
-- **Avraam Makmhudov:** https://www.linkedin.com/in/avraam/ (PRIVATE)
+- (provided privately)
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -160,7 +158,7 @@ The goal of this milestone is to implement a web-based wallet that allows users 
 
 Our current grant aims to lay the foundational technology for a seamless transition of Web2 users to Web3, crafting an OAuth2 authentication framework that is both robust and user-friendly. This is more than just an integration; it's a gateway that will simplify user interactions with blockchain technologies, opening the door for widespread adoption.
 
-While our mid-term focus will be to bring Web2 users into the Dotsama ecosystem, the long-term focus will be to offer a financially-inclusive global payment network, that allows merchants and end users to send and receive money without the need of financial intermediaries. We envision a future where people are free to use the stablecoin or token of their choice for making and receiving payments that are configurable with respect to privacy, security and cost. Eventually we plan to leverage off-chain scaling techniques (either existing or self-implemented) to lower cost and delays. There are various reasons that speak for using a solutions as ours: Hedging against domestic currency crisises/inflation, flexiblity to pay with an asset of choice, transaction costs that are not correlated to the amount that is transferred (a plus for larger transactions), comparatively low transactions fees while having a high security (Polkadot has among the highest Nakamoto coefficients), inclusiveness, privacy properties that can be configured, etc. We aim for a user experience as provided by leading payment apps such as WeChat pay, LINE Pay, Lydia, TWINT, PromptPay, etc. We're going to make a good product-market fit which is an ongoing effort. Having launched various businesses successfully in the past, we've gained good experienced. At the same time, we're 3 co-founders that have a technical background as well - a combination that is rare. This makes us confident to deliver a good solution. The goal is to deliver an user experience that doesn't require users to know how blockchain works.
+While our mid-term focus will be to bring Web2 users into the Dotsama ecosystem, the long-term focus will be to offer a financially-inclusive global payment network, that allows web2-native merchants and individuals to send and receive money without the need of financial intermediaries. We envision a future where people are free to use the stablecoin or token of their choice for making and receiving payments that are configurable with respect to privacy, security and cost. Eventually we plan to leverage off-chain scaling techniques (either existing or self-implemented) to lower cost and delays. There are various reasons that speak for using a solutions as ours: Hedging against domestic currency crisises/inflation, flexiblity to pay with an asset of choice, transaction costs that are not correlated to the amount that is transferred (a plus for larger transactions), comparatively low transactions fees while having a high security (Polkadot has among the highest Nakamoto coefficients), inclusiveness, privacy properties that can be configured, etc. We aim for a user experience as provided by leading payment apps such as WeChat pay, LINE Pay, Lydia, TWINT, PromptPay, etc. We're going to make a good product-market fit which is an ongoing effort. Having launched various businesses successfully in the past, we've gained good experienced. At the same time, we're 3 co-founders that have a technical background as well - a combination that is rare. This makes us confident to deliver a good solution. The goal is to deliver an user experience that doesn't require users to know how blockchain works.
 
 
 ## Additional Information :heavy_plus_sign:
