@@ -46,7 +46,7 @@ There are two key architectural diagrams that define the project's structure:
 
 ### Ecosystem Fit
 
-Below is a comparative overview of our immediate project goals for the scope of this grant versus our macro vision for global financial inclusion:
+Below is a comparative overview of our immediate project goals for the scope of this grant versus our longer term macro vision:
 
 | Aspect             | This Grant                                                                 | Macro Vision                                                                      |
 |--------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
