@@ -16,7 +16,7 @@ The DOT Login initiative will enable individuals, even those without prior block
 
 This project is structured into three main parts: the wallet creation flow, the transaction sending flow, and the UI development. Each part addresses a core aspect of integrating OAuth2 authentication with Substrate, facilitating an accessible entry point into the Web3 space for Web2 users.
 
-- **Wallet Creation Flow:** This process involves the user generating an ephemeral key pair and authenticating with an OAuth2 provider. The `zkEphemeralKeys` pallet then registers the public key, encapsulated with a zero-knowledge proof to ensure privacy. The wallet address is derived from this ephemeral public key, ensuring a secure link between the user's identity as authenticated by the OAuth2 provider and their on-chain presence.
+- **Wallet Creation Flow:** This process involves the user generating an ephemeral key pair through the wallet and authenticating with an OAuth2 provider (e.g. Gmail). The `zkEphemeralKeys` pallet then registers the public key, encapsulated with a zero-knowledge proof to ensure privacy. The wallet address is derived from this ephemeral public key, ensuring a secure link between the user's identity as authenticated by the OAuth2 provider and their on-chain presence.
 
 - **Transaction Sending Flow:** For transaction processing, the `zkEphemeralKeys` pallet again plays a pivotal role. It employs an internal mechanism to verify transaction signatures made with the ephemeral keys. Upon successful verification, it executes the transfer using a custom extrinsic that mimics the core functionality of the vanilla `pallet_balances`, ensuring that the core logic of existing Substrate modules remains untouched.
 
@@ -46,8 +46,12 @@ There are two key architectural diagrams that define the project's structure:
 
 ### Ecosystem Fit
 
-- **Target Audience:** New and existing Web2 users transitioning to Web3, developers looking for user-friendly authentication methods.
-- **Needs Met:** Simplifying the transition from Web2 to Web3 and enhancing the overall user experience in the Polkadot/Kusama ecosystem.
+Below is a comparative overview of our immediate project goals for the scope of this grant versus our macro vision for global financial inclusion:
+
+| Aspect             | This Grant                                                                 | Macro Vision                                                                      |
+|--------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| **Target Audience** | New and existing Web2 users transitioning to Web3, developers looking for user-friendly authentication methods. | Global user base with a focus on financial inclusion, merchants, and consumers seeking low-cost, efficient payment solutions. Eventually allow merchands and retail users to use the currency of their choice for payments and savings. This can be useful especially for countries that experience currency crisises or go to a time of high inflation. |
+| **Needs Met**       | Simplifying the transition from Web2 to Web3 and enhancing user experience in the Polkadot/Kusama ecosystem. | Providing a stable, reliable, and accessible payment network using blockchain technology to facilitate financial transactions worldwide with a focus on stablecoins for minimizing volatility. |
 
 ## Team :busts_in_silhouette:
 
