@@ -73,17 +73,28 @@ Below is a comparative overview of our immediate project goals for the scope of 
 
 ### Team's experience
 
-- **Mickael Luangkhot:** TODO
-- **Ahmed Abouzi:** TODO
-- **Avraam Makmhudov:** TODO
+- **Mickael Luangkhot:**
+    - Askip App Founder: Venture backed startup. Social network for teenagers which gathered 8 millions users in France.
+    - Bubble Vie Founder: Physical retail chains in France (food)
+    - Bobapro Founder: No. 1 supplier of Bubble Tea products in France
+- **Ahmed Abouzi:**
+    - Binks: neobank facilitating access to the bank account
+    - Toruneko: an e-commerce company selling on the biggest marketplaces (Amazon, CDiscount, Fnac, Rakuten...) with a stock of thousand products
+    - ETravelCompanion: a proactive and adaptive voice assistant that helps and facilitates journeys of drivers
+- **Avraam Makmhudov:**
+    - Working at Natixis 
 
 ### Team Code Repos
 
-- TODO
+- **Mickael Luangkhot:** https://github.com/singkeo (PRIVATE)
+- **Ahmed Abouzi:** https://github.com/AhmedX6 (PRIVATE)
+- **Avraam Makmhudov:** https://github.com/avraamm (PRIVATE)
 
 ### Team LinkedIn Profiles
 
-- TODO
+- **Mickael Luangkhot:** https://www.linkedin.com/in/luangkhot (PRIVATE)
+- **Ahmed Abouzi:** https://www.linkedin.com/in/ahmed-a-a918326a (PRIVATE)
+- **Avraam Makmhudov:** https://www.linkedin.com/in/avraam/ (PRIVATE)
 
 ## Development Roadmap :nut_and_bolt:
 
